@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        sh 'echo "new build 2"'
+      }
+    }
+
   }
 }
