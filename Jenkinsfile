@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('new build  3') {
+      steps {
+        sh 'echo "new build 3"'
+      }
+    }
+
   }
 }
