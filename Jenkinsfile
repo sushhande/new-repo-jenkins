@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('new build') {
       steps {
         sh 'echo "new build 2"'
       }
